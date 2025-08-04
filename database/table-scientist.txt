@@ -1,0 +1,12 @@
+create table scientists (
+	name varchar
+);
+
+insert into scientists values('Marie Curie');
+insert into scientists values('Isacc Newton');
+insert into scientists values('Ada Lovelace');
+insert into scientists values('Albert Einstein');
+insert into scientists values('Allan Turing');
+insert into scientists values('Nicolas Tesla');
+
+select * from scientists;
